@@ -35,6 +35,6 @@ st.session_state.slide_number = int(slide)
 
 # Display the slides
 module_str = re.sub(r"\\", ".", slide_files[st.session_state.slide_number])
-module_str = module_str.replace(".py","")
+# module_str = module_str.replace(".py","")
 current_slide = importlib.import_module(module_str)
 current_slide.display()
