@@ -8,8 +8,8 @@ def display():
 
     # Datos para el gráfico de líneas
     datos_lineas = {
-        "x": ["Singapur", 'Bahrein', 'Monza', 'Imola', 'Miami', 'México'],
-        "y": [14, 3, 8, 4, 5, 1]
+        "x": ["Singapur", 'Bahrein', 'Monza', 'Imola', 'Miami', 'México', 'Interlagos'],
+        "y": [14, 3, 8, 4, 5, 1, 2]
     }
 
     # Crear el gráfico de líneas
